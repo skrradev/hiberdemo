@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="com.develhack:develhacked-lombok:0.1.5" type="repository">
+    <properties maven-id="com.develhack:develhacked-lombok:0.1.5" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/develhack/develhacked-lombok/0.1.5/develhacked-lombok-0.1.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
