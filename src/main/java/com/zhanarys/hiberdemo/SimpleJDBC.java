@@ -15,29 +15,13 @@ import java.util.Properties;
 /**
  * @author zh.turemuratov on 1/14/20
  */
-public class Main {
+public class SimpleJDBC {
 
 
     public static void main(String[] args) throws SystemException, HeuristicRollbackException, HeuristicMixedException, RollbackException {
 
-       /* EntityManagerFactory entityManagerFactory =
-                Persistence.createEntityManagerFactory("HelloWorldPU");
-
-
-
-
-        EntityManager entityManager = entityManagerFactory.createEntityManager();
-
-
-        Card card = new Card();
-
-        card.setBalance(BigDecimal.TEN);
-        card.setCardNumber("23423234");
-
-        entityManager.persist(card);
-*/
         try {
-            //Class.forName("org.postgresql.Driver");
+            Class.forName("org.postgresql.Driver");
             Connection con = null;
             for (int i = 0; i < 100; i++) {
                  con = DriverManager.getConnection(
